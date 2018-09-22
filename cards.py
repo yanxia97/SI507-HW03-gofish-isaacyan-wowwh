@@ -146,4 +146,5 @@ class Hand(object):
 #############
 ## The following is a line to run all of the tests you include:
 if __name__ == "__main__":
+	unittest.main(verbosity=2)
 ## verbosity 2 to see detail about the tests the code fails/passes/etc.
