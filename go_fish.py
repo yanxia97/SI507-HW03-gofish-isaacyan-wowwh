@@ -104,4 +104,4 @@ if __name__ == "__main__":
     hand2=hands[1]
     play(hand1, hand2, deck) # the player with hand 1 goes first
 	# edited by isaacyan
-
+    # adjusted by wowwh
