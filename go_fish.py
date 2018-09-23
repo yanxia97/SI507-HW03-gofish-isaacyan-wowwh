@@ -31,10 +31,10 @@ def play(hand1, hand2, deck):
 	book2 = []
 	while True:
 		if turn/2==0:
-			fish = ask(hand1, hand2)
+			ask(hand1, hand2)
 			book1 += check(hand1)
 		else:
-			fish = ask(hand2, hand1)
+			ask(hand2, hand1)
 			book2 += check(hand2)
 		turn += 1
 		if len(book1)+len(book2)==13:
